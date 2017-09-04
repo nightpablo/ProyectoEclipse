@@ -33,6 +33,7 @@ public class Prueba {
 	 */
 	public Prueba() {
 		initialize();
+		System.out.println("");
 	}
 
 	/**
