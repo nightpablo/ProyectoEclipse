@@ -11,6 +11,7 @@ public class Proyecto implements EntityImplementation{
 	public static final String NOMBRE_TABLA = "proyectos";
 	
 	public Proyecto() {}
+	
 	public Proyecto(JSONObject object) {
 		toEntity(object);
 	}
